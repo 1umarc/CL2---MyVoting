@@ -2,6 +2,14 @@
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
+It was deployed on Scroll:
+
+1. Proof of Smart Contract Transaction - https://scroll-sepolia.blockscout.com/tx/0x021341819141c8b868ad6346b4fd60422944bb171720ab64c52e99c10bf4fad9 / https://sepolia.scrollscan.com/tx/0x021341819141c8b868ad6346b4fd60422944bb171720ab64c52e99c10bf4fad9
+2. Contract Verification (Etherscan) - https://sepolia.scrollscan.com/address/0x96C47533D2561A0Ef8Ef8EfC676119A6F4aC5693
+3. Contract Verification (Sourcify) - https://repo.sourcify.dev/contracts/full_match/534351/0x96C47533D2561A0Ef8Ef8EfC676119A6F4aC5693/
+4. API Key: 71K565ECM57382YAJCPC99HZ9FYJXPZD65 (Connected with Lumarc)
+
+
 ## Get started
 
 1. Install dependencies
