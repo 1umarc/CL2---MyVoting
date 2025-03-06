@@ -1,7 +1,7 @@
 # Welcome to MyVoting 🗳️! 
 **A Blockchain-based Electronic Voting System for Malaysia.**
 
-MyVoting is a decentralized and secure electronic voting system designed for Malaysia. It is built on the **Scroll** blockchain and integrated with the **MySejahtera** mobile app. Malaysian citizens can now vote from the comfort of their homes using MyVoting, eliminating the need for physical polling stations and **reducing election fraud**. By leveraging **Ethereum-based smart contracts**, we ensure that each vote is **secure, transparent, and immutable**.
+MyVoting is a decentralized and secure electronic voting system designed for Malaysia. It is built on the **Scroll** blockchain and integrated with the **MySejahtera** mobile app. Malaysian citizens can now vote from the comfort of their homes using MyVoting, eliminating the need for physical polling stations and **reducing election fraud**. By leveraging **Ethereum-based smart contracts**, we ensure that each vote is **secure, transparent,** and **immutable**.
 
 ## 🚀 Deployment on Scroll
 
@@ -11,7 +11,7 @@ MyVoting is a decentralized and secure electronic voting system designed for Mal
 - **Smart Contract Verification:**  
   [ScrollScan](https://sepolia.scrollscan.com/address/0x6538F44AA7fa82d1d2269FF27369656B0501DFE9) | [Sourcify](https://repo.sourcify.dev/contracts/full_match/534351/0x6538F44AA7fa82d1d2269FF27369656B0501DFE9/)
 
-- **Blockchain API Key:** 71K565ECM57382YAJCPC99HZ9FYJXPZD65 (Owned by user Lumarc)
+- **Blockchain API Key:** 71K565ECM57382YAJCPC99HZ9FYJXPZD65 _(Owned by user Lumarc)_
 
 
 ### 🏠 Launch MyVoting
@@ -38,6 +38,6 @@ After the successful launch of the app, it can be opened on:
 - [Web Simulation](http://localhost:8081/)
 - [Expo Go](https://expo.dev/go) - _install Expo Go on your mobile device first_
 
-- Ensure your **MetaMask wallet** is connected before voting.
+Ensure your **MetaMask wallet** is connected before voting.
 
 **MyVoting** introduces a new era of fair and transparent elections in Malaysia. Cast your vote conveniently now! 🇲🇾
