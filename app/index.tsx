@@ -1,6 +1,7 @@
 import React from "react";
 import { useRouter } from "expo-router";
-import {
+import 
+{
   Image,
   StyleSheet,
   Text,
@@ -9,8 +10,8 @@ import {
 } from "react-native";
 
 
-
-export default function Home() {
+export default function Home() 
+{
   const router = useRouter();
 
   return (
@@ -18,14 +19,14 @@ export default function Home() {
       {/* Logo */}
       <View style={styles.logoContainer}>
         <Image
-          source={require("../assets/images/MySejahtera.jpeg")}
+          source={require("../assets/images/MySejahtera.jpeg")} // Displays the app logo
           style={styles.logo}
         />
       </View>
 
       {/* Text Section */}
       <View style={styles.textContainer}>
-        <Text style={styles.title}>Welcome to</Text>
+        <Text style={styles.title}>Welcome to</Text> 
         <Text style={styles.appName}>MySejahtera</Text>
         <Text style={styles.description}>
           A safer, healthier Malaysia starts with you.
@@ -35,7 +36,7 @@ export default function Home() {
       {/* Get Started Button */}
       <TouchableOpacity
         style={styles.button}
-        onPress={() => router.push("/auth/Category")}
+        onPress={() => router.push("/auth/Category")} // Navigates to the Category screen on press
       >
         <Text style={styles.buttonText}>Get Started</Text>
       </TouchableOpacity>
@@ -43,14 +44,17 @@ export default function Home() {
   );
 }
 
+// Styles for the components
 const styles = StyleSheet.create({
-  container: {
+  container: 
+  {
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
     paddingHorizontal: 20,
   },
-  logoContainer: {
+  logoContainer: 
+  {
     alignItems: "center",
     justifyContent: "center",
     marginBottom: 30,
@@ -59,34 +63,40 @@ const styles = StyleSheet.create({
     shadowOffset: { width: 0, height: 5 },
     shadowRadius: 10,
   },
-  logo: {
+  logo: 
+  {
     width: 220, 
     height: 220, 
     resizeMode: "contain",
   },
-  textContainer: {
+  textContainer: 
+  {
     alignItems: "center",
-    marginBottom: 40,
+    marginBottom: 40, 
   },
-  title: {
+  title: 
+  {
     fontSize: 28,
     fontWeight: "500",
     color: "#fff",
   },
-  appName: {
+  appName: 
+  {
     fontSize: 40,
     fontWeight: "bold",
     color: "#fff",
     marginBottom: 5,
   },
-  description: {
+  description: 
+  {
     fontSize: 16,
     color: "#f0f0f0",
     textAlign: "center",
     marginTop: 5,
     paddingHorizontal: 20,
   },
-  button: {
+  button: 
+  {
     backgroundColor: "#FFD700",
     paddingVertical: 15,
     paddingHorizontal: 40,
@@ -96,7 +106,8 @@ const styles = StyleSheet.create({
     shadowOffset: { width: 0, height: 5 },
     shadowRadius: 8,
   },
-  buttonText: {
+  buttonText: 
+  {
     fontSize: 20,
     fontWeight: "bold",
     color: "#003366",
