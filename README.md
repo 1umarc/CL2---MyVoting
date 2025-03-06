@@ -1,5 +1,5 @@
 # Welcome to MyVoting 🗳️! 
-# A Blockchain-based Electronic Voting System for Malaysia.
+**A Blockchain-based Electronic Voting System for Malaysia.**
 
 MyVoting is a decentralized and secure electronic voting system designed for Malaysia. It is built on the **Scroll** blockchain and integrated with the **MySejahtera** mobile app. Malaysian citizens can now vote from the comfort of their homes using MyVoting, eliminating the need for physical polling stations and **reducing election fraud**. By leveraging **Ethereum-based smart contracts**, we ensure that each vote is **secure, transparent, and immutable**.
 
@@ -21,7 +21,7 @@ This project is built with **React Native**, intended for mobile application dev
 1. Clone the repository:
    ```bash
    git clone https://github.com/1umarc/MyVoting-CL2.git
-   cd myvoting
+   cd MyVoting-CL2
    ```
 2. Install dependencies:
    ```bash
