@@ -3,21 +3,22 @@ import React from "react";
 import Colors from "@/constants/Colors";
 import { useRouter } from "expo-router";
 
+/*Below are the options for each category with its name, banner image and path */
 const categoryOptions = [
   {
     name: "Covid-19 Status",
     banner: require("../../assets/images/Covid19_Status.jpg"),
-    path: "/tabs/Event",
+    path: "/auth/testing", 
   },
   {
     name: "Helpdesk",
     banner: require("../../assets/images/Helpdesk.jpg"),
-    path: "/tabs/Event",
+    path: "/auth/testing",
   },
   {
     name: "Health Facilities",
     banner: require("../../assets/images/Healthcare-Facilities.jpg"),
-    path: "/tabs/Event",
+    path: "/auth/testing",
   },
   {
     name: "MyVoting",
@@ -26,12 +27,15 @@ const categoryOptions = [
   },
 ];
 
-export default function Category() {
+export default function Category()
+{
+  /* This command is used for navigation*/ 
   const router = useRouter();
 
   return (
-    <View style={{ flex: 1 }}>
-      {/* Header Container with Back Button and Title */}
+    <View style={{ flex: 1 }}> 
+      
+      {/* Header Container with Title */}
       <View style={styles.headerContainer}>
         <Text style={styles.headerText}>MySejahtera</Text>
 
@@ -41,9 +45,10 @@ export default function Category() {
         </TouchableOpacity>
       </View>
 
-      <FlatList
-        data={categoryOptions}
-        keyExtractor={(item, index) => index.toString()}
+      {/* Function below is taking categoryOptions as list data and loop through each item in the array.
+      Then for each item, it renders a TouchableOpacity , when pressed, navigates to the screen specified by item.path */}
+      <FlatList //
+        data={categoryOptions} // use categoryOptions as list data
         renderItem={({ item }) => (
           <TouchableOpacity onPress={() => router.push(item.path)}>
             <View>
@@ -57,8 +62,10 @@ export default function Category() {
   );
 }
 
+/* Below are styles for the each component*/
 const styles = StyleSheet.create({
-  headerContainer: {
+  headerContainer: 
+  {
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
@@ -66,28 +73,33 @@ const styles = StyleSheet.create({
     padding: 10,
     borderRadius: 8,
   },
-  headerText: {
+  headerText:
+  {
     fontSize: 30,
     fontWeight: "bold",
     color: "#fff",
   },
-  backButton: {
+  backButton: 
+  {
     backgroundColor: Colors.PRIMARY,
     paddingVertical: 8,
     paddingHorizontal: 15,
     borderRadius: 8,
   },
-  backButtonText: {
+  backButtonText: 
+  {
     fontSize: 16,
     color: "#fff",
     fontWeight: "bold",
   },
-  bannerImage: {
+  bannerImage: 
+  {
     height: 100,
     width: "100%",
     resizeMode: "cover",
   },
-  categoryText: {
+  categoryText: 
+  {
     fontSize: 18,
     fontWeight: "bold",
     textAlign: "center",
