@@ -1,58 +1,52 @@
-# Welcome to your Expo app 👋
+# Welcome to MyVoting 🗳️! A Blockchain-based Electronic Voting System for Malaysia.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+MyVoting is a decentralized and secure electronic voting system designed for Malaysia. It is built on the **Scroll** blockchain and integrated with the **MySejahtera** mobile app. Malaysian citizens can now vote from the comfort of their homes using **MyVoting**, eliminating the need for physical polling stations and reducing election fraud. By leveraging **Ethereum-based smart contracts**, we ensure that each vote is **secure, transparent, and immutable**.
 
-It was deployed on Scroll:
+## 🚀 Deployment on Scroll
 
-1. Proof of Smart Contract Transaction - https://scroll-sepolia.blockscout.com/tx/0x021341819141c8b868ad6346b4fd60422944bb171720ab64c52e99c10bf4fad9 / https://sepolia.scrollscan.com/tx/0x021341819141c8b868ad6346b4fd60422944bb171720ab64c52e99c10bf4fad9
-2. Contract Verification (Etherscan) - https://sepolia.scrollscan.com/address/0x96C47533D2561A0Ef8Ef8EfC676119A6F4aC5693
-3. Contract Verification (Sourcify) - https://repo.sourcify.dev/contracts/full_match/534351/0x96C47533D2561A0Ef8Ef8EfC676119A6F4aC5693/
-4. API Key: 71K565ECM57382YAJCPC99HZ9FYJXPZD65 (Connected with Lumarc)
+- **Smart Contract Transaction Proof:**  
+  [Blockscout](https://scroll-sepolia.blockscout.com/tx/0x021341819141c8b868ad6346b4fd60422944bb171720ab64c52e99c10bf4fad9) |  
+  [ScrollScan](https://sepolia.scrollscan.com/tx/0x021341819141c8b868ad6346b4fd60422944bb171720ab64c52e99c10bf4fad9)
+
+- **Smart Contract Verification:**  
+  [Etherscan](https://sepolia.scrollscan.com/address/0x96C47533D2561A0Ef8Ef8EfC676119A6F4aC5693) |  
+  [Sourcify](https://repo.sourcify.dev/contracts/full_match/534351/0x96C47533D2561A0Ef8Ef8EfC676119A6F4aC5693)
+
+- **Blockchain API Key:**
+  API Key: 71K565ECM57382YAJCPC99HZ9FYJXPZD65 (Owned by user Lumarc)
 
 
-## Get started
+### 🏠 Launch MyVoting
 
-1. Install dependencies
+This project is built with **React Native**, intended for mobile application development.
 
+1. Clone the repository:
    ```bash
-   npm install
+   git clone https://github.com/your-repo/myvoting.git
+   cd myvoting
+   ```
+2. Install dependencies:
+   ```bash
+   npm install expo
+   npm install ethers@^5
+   ```
+3. Start the application:
+   ```bash
+   npx expo start --tunnel
    ```
 
-2. Start the app
+### 💻 Running on Devices
+After running `npx expo start --tunnel`, the app can be opened on:
+- [Web Simulation](http://localhost:8081/)
+- [Expo Go](https://expo.dev/go) - install Expo Go on your mobile device first
 
-   ```bash
-    npx expo start
-   ```
+- Ensure your **MetaMask wallet** is connected before voting.
 
-In the output, you'll find options to open the app in a
+**MyVoting** introduces a new era of fair and transparent elections in Malaysia. Cast your vote conveniently now! 🇲🇾🗳️
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
 
-When you're ready, run:
 
-```bash
-npm run reset-project
-```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
