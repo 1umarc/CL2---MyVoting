@@ -36,7 +36,7 @@ This project is built with **React Native**, intended for mobile application dev
 ### 💻 Running on Devices
 After the successful launch of the app, it can be opened on:
 - [Web Simulation](http://localhost:8081/)
-- [Expo Go](https://expo.dev/go) - install Expo Go on your mobile device first
+- [Expo Go](https://expo.dev/go) - _install Expo Go on your mobile device first_
 
 - Ensure your **MetaMask wallet** is connected before voting.
 
