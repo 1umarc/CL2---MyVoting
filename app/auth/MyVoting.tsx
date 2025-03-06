@@ -35,8 +35,8 @@ export default function MyVoting()
           const signer = provider.getSigner();
           setUserWallet(signer);
 
-          // Details of smart contract 
-          const contractAddress = "0x96C47533D2561A0Ef8Ef8EfC676119A6F4aC5693";
+          // Details of smart contract deployed on Scroll
+          const contractAddress = "0x6538F44AA7fa82d1d2269FF27369656B0501DFE9";
           const abi = [
             {
               inputs: [
