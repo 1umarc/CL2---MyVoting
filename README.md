@@ -13,20 +13,25 @@ MyVoting is a decentralized and secure electronic voting system designed for Mal
 
 - **Blockchain API Key:** 71K565ECM57382YAJCPC99HZ9FYJXPZD65 _(Owned by user Lumarc)_
 
+### Prerequisites
+
+Make sure you have the following installed:
+- [Node.js](https://nodejs.org/en)
+- [MetaMask](https://metamask.io/download) extension
 
 ### 🏠 Launch MyVoting
 
 This project is built with **React Native**, intended for mobile application development.
 
 1. Clone the repository:
+   _Alternatives: clone via GitHub Desktop OR download ZIP file manually_
    ```bash
    git clone https://github.com/1umarc/MyVoting-CL2.git
    cd MyVoting-CL2
    ```
-2. Install dependencies:
+2. Install dependency:
    ```bash
-   npm install expo
-   npm install ethers@^5
+   npm install
    ```
 3. Start the application:
    ```bash
@@ -35,8 +40,8 @@ This project is built with **React Native**, intended for mobile application dev
 
 ### 💻 Running on Devices
 After the successful launch of the app, it can be opened on:
-- [Web Simulation](http://localhost:8081/)
-- [Expo Go](https://expo.dev/go) - _install Expo Go on your mobile device first_
+- [Web Simulation](http://localhost:8081/) via hyperlink
+- [Expo Go](https://expo.dev/go) via QR code _(install Expo Go on your mobile device first)_
 
 Ensure your **MetaMask wallet** is connected before voting.
 
