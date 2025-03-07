@@ -24,7 +24,8 @@ Make sure you have the following installed:
 This project is built with **React Native**, intended for mobile application development.
 
 1. Clone the repository:
-   _Alternatives: clone via GitHub Desktop OR download ZIP file manually_
+   
+   _(Alternatives: clone via GitHub Desktop OR download ZIP file manually)_
    ```bash
    git clone https://github.com/1umarc/MyVoting-CL2.git
    cd MyVoting-CL2
@@ -42,7 +43,5 @@ This project is built with **React Native**, intended for mobile application dev
 After the successful launch of the app, it can be opened on:
 - [Web Simulation](http://localhost:8081/) via hyperlink
 - [Expo Go](https://expo.dev/go) via QR code _(install Expo Go on your mobile device first)_
-
-Ensure your **MetaMask wallet** is connected before voting.
 
 **MyVoting** introduces a new era of fair and transparent elections in Malaysia. Cast your vote conveniently now! 🇲🇾
